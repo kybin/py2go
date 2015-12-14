@@ -45,9 +45,9 @@ if-elif-else (chain)
 # python
 if fruit == "apple":
 	color = "red"
-else if fruit == "banana" or fruit == "mango":
+elif fruit == "banana" or fruit == "mango":
 	color = "yellow"
-else if fruit == "melon":
+elif fruit == "melon":
 	color = "green"
 else:
 	color = "unknown"
