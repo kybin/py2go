@@ -1,6 +1,7 @@
 string to int
 
 ```python
+# python
 s = "1"
 i = int(s)
 
@@ -10,9 +11,9 @@ try:
 except:
 	# do somthing here
 ```
->>
 
 ```go
+// go
 s := "1"
 i := strconv.Atoi(s)
 
@@ -21,3 +22,18 @@ i, err := strconv.Atoi(s)
 if err != nil {
 	// do something here
 }
+```
+
+int to string
+
+```python
+# python
+i = 1
+s = string(i)
+```
+
+```go
+// go
+i := 1
+s := strconv.Itoa(i)
+```
