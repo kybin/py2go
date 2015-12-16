@@ -21,7 +21,7 @@ if-elif-else
 
 ```python
 # python
-if i > 0 :
+if i > 0:
 	return "positive"
 elif i < 0:
 	return "negative"
@@ -55,7 +55,8 @@ else:
 
 ```go
 // go
-var color string
+var color string // define it first
+
 switch fruit {
 case "apple":
 	color = "red"
